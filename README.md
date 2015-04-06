@@ -20,5 +20,5 @@ Clone repo to your home directory:
 
 Install into ~/bin:
 
-    cd ~/code/bin/bootstrap
+    cd ~/code/github.com/nurfherder/bootstrap
     ./bootstrap_home.sh
