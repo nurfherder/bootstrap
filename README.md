@@ -20,4 +20,5 @@ Clone repo to your home directory:
     cd ~/code/github.com/nurfherder/bootstrap
 
 If recreating a Apple OS X system:
+
     ./bootstrap_osx.sh
