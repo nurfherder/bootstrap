@@ -12,6 +12,8 @@ Deploy:
  * git
  * A POSIX shell
 
+ * Install Xcode
+
 **Procedure:**
 
 Clone repo to your home directory:
