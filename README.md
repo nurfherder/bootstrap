@@ -12,6 +12,7 @@ Deploy:
  * git
  * A POSIX shell
 
+Still need to install AppStore requirements manually (maybe https://github.com/argon/mas is the solution):
  * Install Xcode
 
 **Procedure:**
