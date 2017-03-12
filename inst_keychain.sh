@@ -9,7 +9,7 @@
 #---------------------------------------
 if [ ! -f "$HOME/bin/keychain" ]; then
   echo " * Keychain installing"
-  version='keychain-2.7.1'
+  version='keychain-2.8.3'
   archive="${version}.tar.bz2"
   file="${version}/keychain"
   cd /tmp
