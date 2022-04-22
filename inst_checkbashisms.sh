@@ -10,8 +10,8 @@
 #---------------------------------------
 if [ ! -f "$HOME/bin/checkbashisms" ]; then
   echo " * Checkbashisms installing"
-  version='devscripts_2.20.2'
-  version_ALT='devscripts-2.20.2' #CUTE: change _ to -
+  version='devscripts_2.22.1'
+  version_ALT='devscripts-2.22.1' #CUTE: change _ to -
   archive="${version}.tar.xz"
   file="${version_ALT}/scripts/checkbashisms.pl"
   cd /tmp
