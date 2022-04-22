@@ -62,6 +62,7 @@ done
 #---------------------------------------
 # Run additional install scripts
 #---------------------------------------
+"$iws/inst_keychain.sh"
 "$iws/inst_checkbashisms.sh"
 "$iws/inst_shellcheck.sh"
-"$iws/inst_keychain.sh"
+"$iws/inst_gitawareprompt.sh"
