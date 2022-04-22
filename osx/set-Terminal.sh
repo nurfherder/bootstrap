@@ -12,6 +12,7 @@ defaults write com.apple.terminal StringEncodings -array 4
 #defaults write org.x.X11 wm_ffm -bool true
 
 # Use a modified version of the Solarized Dark theme by default in Terminal.app
+# FIXME: update font and size
 osascript <<EOD
 
 tell application "Terminal"
@@ -20,6 +21,7 @@ tell application "Terminal"
         local initialOpenedWindows
         local windowID
         set themeName to "Solarized_Dark"
+        set themeName2 to "Solarized_Light"
 
         (* Store the IDs of all the open terminal windows. *)
         set initialOpenedWindows to id of every window
@@ -27,7 +29,8 @@ tell application "Terminal"
         (* Open the custom theme so that it gets added to the list
            of available terminal themes (note: this will open two
            additional terminal windows). *)
-        do shell script "open './" & themeName & ".terminal'"
+        do shell script "open '../files/" & themeName2 & ".terminal'"
+        do shell script "open '../files/" & themeName & ".terminal'"
 
         (* Wait a little bit to ensure that the custom theme is added. *)
         delay 1
